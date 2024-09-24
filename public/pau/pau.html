@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Pau</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.google.com/specimen/Cormorant+Garamond?sort=alpha&preview.text=GALERIA&query=Cormorant+Garamond" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <div class="menu"></div>
+    </header>
+
+    <!-- GALERÍA -->
+    <h2 class="titulo">GALERÍA</h2>
+    <div class="gallery-wrapper">
+        <div class="gallery-container">
+            <div class="image-section-galeria">
+                <img src="imagenes/pau3.jpg" alt="Foto 1">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/pau1.jpg" alt="Foto 2">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/pau2.jpg" alt="Foto 3">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/pau4.jpeg" alt="Foto 4">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/pau5.jpeg" alt="Foto 5">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/pau6.jpg" alt="Foto 5">
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENEDORES CONCIERTOS -->
+    <h2 class="titulo">CONCIERTOS</h2>
+    <div class="content-container-concierto">
+        <div class="image-section-concierto" onclick="openModal('modal1')">
+            <img src="miniaturas/pau1.png" alt="Concierto 1">
+            <div class="overlay">
+                <div class="text">23</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal2')">
+            <img src="miniaturas/pau2.png" alt="Concierto 2">
+            <div class="overlay">
+                <div class="text">Narcicista</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal3')">
+            <img src="miniaturas/pau3.png" alt="Concierto 3">
+            <div class="overlay">
+                <div class="text">Survive</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal4')">
+            <img src="miniaturas/pau4.png" alt="Concierto 4">
+            <div class="overlay">
+                <div class="text">Evolve</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal5')">
+            <img src="miniaturas/pau5.png" alt="Concierto 5">
+            <div class="overlay">
+                <div class="text">Breathe</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal6')">
+            <img src="miniaturas/pau6.png" alt="Concierto 6">
+            <div class="overlay">
+                <div class="text">Revenant</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALES CONCIERTOS -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/pau1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/pau2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/pau3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/pau4.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/pau5.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal6')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/pau6.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>  
+
+    <script src="../scripts.js"></script>
+</body>
+</html>

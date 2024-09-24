@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Ale</title>
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo"></div>
+        <div class="menu"></div>
+    </header>
+
+    <!-- GALERÍA -->
+    <h2 class="titulo">GALERÍA</h2>
+    <div class="gallery-wrapper">
+        <div class="gallery-container">
+            <div class="image-section-galeria">
+                <img src="imagenes/ale3.jpg" alt="Foto 1">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/ale1.jpg" alt="Foto 2">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/ale2.jpg" alt="Foto 3">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/ale4.jpg" alt="Foto 4">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/ale5.jpg" alt="Foto 5">
+                <div class="overlay"></div>
+            </div>
+            <div class="image-section-galeria">
+                <img src="imagenes/ale6.jpg" alt="Foto 6">
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENEDORES CONCIERTOS -->
+    <h2 class="titulo">CONCIERTOS</h2>
+    <div class="content-container-concierto">
+        <div class="image-section-concierto" onclick="openModal('modal1')">
+            <img src="miniaturas/ale1.png" alt="Concierto 1">
+            <div class="overlay">
+                <div class="text">Hunter</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal2')">
+            <img src="miniaturas/ale2.png" alt="Concierto 2">
+            <div class="overlay">
+                <div class="text">Choke</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal3')">
+            <img src="miniaturas/ale3.png" alt="Concierto 3">
+            <div class="overlay">
+                <div class="text">Choke</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal4')">
+            <img src="miniaturas/ale4.png" alt="Concierto 4">
+            <div class="overlay">
+                <div class="text">Red Hands Never Fade</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal5')">
+            <img src="miniaturas/ale5.jpg" alt="Concierto 5">
+            <div class="overlay">
+                <div class="text">Concierto 5</div>
+            </div>
+        </div>
+        <div class="image-section-concierto" onclick="openModal('modal6')">
+            <img src="miniaturas/ale6.jpg" alt="Concierto 6">
+            <div class="overlay">
+                <div class="text">Concierto 6</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALES CONCIERTOS -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/ale1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/ale2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/ale3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/ale4.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/ale5.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal6')">&times;</span>
+            <video width="100%" controls>
+                <source src="videos/ale6.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <script src="../scripts.js"></script>
+</body>
+</html>
