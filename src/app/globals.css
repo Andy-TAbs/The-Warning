@@ -50,7 +50,7 @@ body {
 }
 body {
     background-color: #1c1c1c;
-    background-image: url('imagenes/fondo2.jpg');
+    background-image: url('../../public/imagenes/fondo2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -78,7 +78,7 @@ body {
 .logo {
     width: 150px;
     height: 50px;
-    background-image: url('imagenes/logo.webp');
+    background-image: url('../../public/imagenes/logo.webp');
     background-size: cover;
 }
 
