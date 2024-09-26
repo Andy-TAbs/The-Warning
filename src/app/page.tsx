@@ -10,23 +10,23 @@ export default function Home() {
     <div className="imagen-container">
         <div className="imagen-con-nombre">
             <a className="imagen-button">
-                <img className="imagen" src="imagenes/dany0.jpg" alt="Imagen 1" />
+                <img className="imagen" src="../public/imagenes/dany0.jpg" alt="Imagen 1" />
             </a>
         </div>
         <div className="imagen-con-nombre">
             <a className="imagen-button">
-                <img className="imagen" src="imagenes/pau0.jpg" alt="Imagen 2" />
+                <img className="imagen" src="../public/imagenes/pau0.jpg" alt="Imagen 2" />
             </a>
         </div>
         <div className="imagen-con-nombre">
             <a className="imagen-button">
-                <img className="imagen" src="imagenes/ale0.jpg" alt="Imagen 3" />
+                <img className="imagen" src="../public/imagenes/ale0.jpg" alt="Imagen 3" />
             </a>
         </div>
         <div className="button-container-inicio">
             <div className="imagen-banda">
                 <a className="boton-banda">
-                    <img className="imagen" src="imagenes/logo.webp" alt="imagen 4" />
+                    <img className="imagen" src="../public/imagenes/logo.webp" alt="imagen 4" />
                 </a>
             </div>
         </div>
