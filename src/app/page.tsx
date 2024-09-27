@@ -1,3 +1,4 @@
+import Image from  'next/image';
 
 export default function Home() {
   return (
@@ -10,23 +11,23 @@ export default function Home() {
     <div className="imagen-container">
         <div className="imagen-con-nombre">
             <a className="imagen-button">
-                <img className="imagen" src="imagenes/dany0.jpg" alt="Imagen 1" />
+                <Image className="imagen" src="imagenes/dany0.jpg" alt="Imagen 1" />
             </a>
         </div>
         <div className="imagen-con-nombre">
             <a className="imagen-button">
-                <img className="imagen" src="imagenes/pau0.jpg" alt="Imagen 2" />
+                <Image className="imagen" src="imagenes/pau0.jpg" alt="Imagen 2" />
             </a>
         </div>
         <div className="imagen-con-nombre">
             <a className="imagen-button">
-                <img className="imagen" src="imagenes/ale0.jpg" alt="Imagen 3" />
+                <Image className="imagen" src="imagenes/ale0.jpg" alt="Imagen 3" />
             </a>
         </div>
         <div className="button-container-inicio">
             <div className="imagen-banda">
                 <a className="boton-banda">
-                    <img className="imagen" src="imagenes/logo.webp" alt="imagen 4" />
+                    <Image className="imagen" src="imagenes/logo.webp" alt="imagen 4" />
                 </a>
             </div>
         </div>
