@@ -26,7 +26,7 @@ export default function Home() {
         <div className="button-container-inicio">
             <div className="imagen-banda">
                 <a className="boton-banda">
-                    <img className="imagen" src="../public/imagenes/logo.webp" alt="imagen 4" />
+                    <img className="imagen" src="imagenes/logo.webp" alt="imagen 4" />
                 </a>
             </div>
         </div>
